@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+  
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,6 +11,7 @@
   </head>
 
   <body>
+    <!--메인화면 부분-->
     <section class="home">
       <header class="misc">
         <div class="misc_profile">
@@ -90,6 +92,30 @@
           </ol>
         </section>
       </main>
+    </section>
+    
+    <!--지출관리 부분-->
+    <section class="management">
+      <button class="btn_close">닫기</button>
+      <div class="management_title">
+        <h1>지출관리</h1>
+      </div>
+      <div class="limit">
+        <div class="limit_info">
+          <h2>기준금액설정 <strong>2,100,000원</strong></h2>
+        </div>
+        <div class="limit_graphic">
+          <!--js로 처리되는 그래픽 요소?-->
+        </div>
+      </div>
+      <div class="daily_report">
+        <h2>일간 리포트</h2>
+        <canvas class="management_chart1"></canvas>
+      </div>
+      <div class="month_pattern">
+        <h2>지출 패턴</h2>
+        <canvas class="management_chart2"></canvas>
+      </div>
     </section>
 
     <footer class="global-footer-menu">
