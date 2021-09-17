@@ -239,6 +239,10 @@
     color:var(--white);
     padding:5px 0 0 13px;
 }
+.saving .saving_goal, .saving .saving_savings{
+    font-weight: 500;
+    font-size: 12px;
+}
 .orange{
     width:97px;
     background-color: var(--red); 
